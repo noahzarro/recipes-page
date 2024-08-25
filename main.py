@@ -1,6 +1,6 @@
 from flask import Flask
 
-app = Flask("utt-blog", static_url_path="/static")
+app = Flask("recipes", static_url_path="/static")
 
 @app.route('/')
 @app.route('/index')
